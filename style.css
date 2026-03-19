@@ -41,7 +41,11 @@ a {
 }
 
 .film {
-    width: 30vh;
+    width: 35vh;
+}
+
+.films {
+    margin-top: 7vh;
 }
 
 
