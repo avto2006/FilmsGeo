@@ -95,6 +95,12 @@ a {
     cursor: pointer;
     padding: 0.5rem 1rem;
     z-index: 10;
+    border-radius: 5px;
+}
+
+.arrow:hover {
+    background-color: rgb(48, 48, 240);
+    transition: ease-in 0.4s;
 }
 
 .arrow.left {left: 0;}
