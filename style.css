@@ -41,11 +41,14 @@ a {
 }
 
 .film {
-    width: 35vh;
+    width: 34vh;
 }
 
 .films {
+    display: flex;
     margin-top: 7vh;
+    justify-content: space-around;
+    gap: 2vh;
 }
 
 
