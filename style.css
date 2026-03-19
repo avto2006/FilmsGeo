@@ -48,7 +48,21 @@ a {
     display: flex;
     margin-top: 7vh;
     justify-content: space-around;
-    gap: 2vh;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    position: relative;
+    padding: 1rem, 2rem;
+}
+
+.films::-webkit-scrollbar {
+    display: none;
+    position: relative;
+}
+
+.films-wrapper {
+    position: relative;
+    overflow: hidden;
 }
 
 
@@ -57,3 +71,18 @@ a {
     margin-left: 5vh;
 }
 
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    z-index: 10;
+}
+
+.arrow.left {left: 0;}
+.arrow.right {right: 0;}
