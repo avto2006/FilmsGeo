@@ -27,3 +27,16 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.srch {
+    width: 20px;
+    margin-right: 5vh;
+    cursor: pointer;
+}
+
+.srchLogin {
+    display: flex;
+    align-items: center;
+    
+}
+
