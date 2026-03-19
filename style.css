@@ -65,6 +65,19 @@ a {
     overflow: hidden;
 }
 
+.top {
+    width: 80vh;
+    height: 50vh;
+    border-radius: 3vh;
+}
+
+.top_photoSec {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 6vh;
+}
+
 
 .trending_movies {
     margin-top: 28vh;
