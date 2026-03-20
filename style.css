@@ -113,6 +113,10 @@ a {
 }
 
 
+.section_3 {
+    display: flex;
+}
+
 
 .arrow.left {left: 0;}
 .arrow.right {right: 0;}
