@@ -84,7 +84,7 @@ a {
 }
 
 
-.trending_movies,.popular_films {
+.trending_movies,.popular_films,.section_3 {
     margin-top: 28vh;
     margin-left: 5vh;
 }
@@ -115,6 +115,10 @@ a {
 
 .section_3 {
     display: flex;
+}
+
+.categories_area,.films_area {
+    margin-top: 10vh;
 }
 
 
