@@ -78,6 +78,11 @@ a {
     margin-top: 6vh;
 }
 
+.hd {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
 
 .trending_movies,.popular_films {
     margin-top: 28vh;
