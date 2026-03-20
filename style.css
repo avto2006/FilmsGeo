@@ -127,6 +127,29 @@ a {
     gap: 15vh;
 }
 
+.category {
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.catg.action {
+    background-color: blue;
+}
+
+.catg:hover {
+    background-color: blue;
+    transition: 0.5s ease-in;
+}
+
+.actn_films,.comedy_films {
+    display: flex;
+    gap: 3vh;
+}
+
+.comedy_films {
+    display: none;
+}
 
 
 
