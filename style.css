@@ -79,7 +79,7 @@ a {
 }
 
 
-.trending_movies {
+.trending_movies,.popular_films {
     margin-top: 28vh;
     margin-left: 5vh;
 }
