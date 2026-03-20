@@ -115,11 +115,19 @@ a {
 
 .section_3 {
     display: flex;
+
 }
 
 .categories_area,.films_area {
     margin-top: 10vh;
 }
+
+.ctgFilm {
+    display: flex;
+    gap: 15vh;
+}
+
+
 
 
 .arrow.left {left: 0;}
