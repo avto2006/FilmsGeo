@@ -40,6 +40,7 @@ action.addEventListener('click', () => {
       horror_films.style.display = 'none';
       mystery_films.style.display = 'none';
       romance_films.style.display = 'none';
+      romance.style.backgroundColor = 'black';
 })
 
 comedy.addEventListener('click', () => {
@@ -52,4 +53,87 @@ comedy.addEventListener('click', () => {
       horror_films.style.display = 'none';
       mystery_films.style.display = 'none';
       romance_films.style.display = 'none';
+      romance.style.backgroundColor = 'black';
 })
+
+drama.addEventListener('click', () => {
+      action.style.backgroundColor = 'black';
+      drama.style.backgroundColor = 'blue';
+      comedy.style.backgroundColor = 'black';
+      actn_films.style.display = 'none';
+      comedy_films.style.display = 'none';
+      drama_films.style.display = 'flex';
+      fantasy_films.style.display = 'none';
+      horror_films.style.display = 'none';
+      mystery_films.style.display = 'none';
+      romance_films.style.display = 'none';
+      romance.style.backgroundColor = 'black';
+})
+
+fantasy.addEventListener('click', () => {
+      action.style.backgroundColor = 'black';
+      drama.style.backgroundColor = 'black';
+      comedy.style.backgroundColor = 'black';
+      fantasy.style.backgroundColor = 'blue';
+      actn_films.style.display = 'none';
+      comedy_films.style.display = 'none';
+      drama_films.style.display = 'none';
+      fantasy_films.style.display = 'flex';
+      horror_films.style.display = 'none';
+      mystery_films.style.display = 'none';
+      romance_films.style.display = 'none';
+      romance.style.backgroundColor = 'black';
+})
+
+horror.addEventListener('click', () => {
+      action.style.backgroundColor = 'black';
+      drama.style.backgroundColor = 'black';
+      comedy.style.backgroundColor = 'black';
+      fantasy.style.backgroundColor = 'black';
+      horror.style.backgroundColor = 'blue';
+      actn_films.style.display = 'none';
+      comedy_films.style.display = 'none';
+      drama_films.style.display = 'none';
+      fantasy_films.style.display = 'none';
+      horror_films.style.display = 'flex';
+      mystery_films.style.display = 'none';
+      romance_films.style.display = 'none';
+      romance.style.backgroundColor = 'black';
+})
+
+
+mystery.addEventListener('click', () => {
+      action.style.backgroundColor = 'black';
+      drama.style.backgroundColor = 'black';
+      comedy.style.backgroundColor = 'black';
+      fantasy.style.backgroundColor = 'black';
+      horror.style.backgroundColor = 'black';
+      mystery.style.backgroundColor = 'blue';
+      actn_films.style.display = 'none';
+      comedy_films.style.display = 'none';
+      drama_films.style.display = 'none';
+      fantasy_films.style.display = 'none';
+      horror_films.style.display = 'none';
+      mystery_films.style.display = 'flex';
+      romance_films.style.display = 'none';
+      romance.style.backgroundColor = 'black';
+})
+
+romance.addEventListener('click', () => {
+      action.style.backgroundColor = 'black';
+      drama.style.backgroundColor = 'black';
+      comedy.style.backgroundColor = 'black';
+      fantasy.style.backgroundColor = 'black';
+      mystery.style.backgroundColor = 'black';
+      romance.style.backgroundColor = 'blue';
+      actn_films.style.display = 'none';
+      comedy_films.style.display = 'none';
+      drama_films.style.display = 'none';
+      fantasy_films.style.display = 'none';
+      horror_films.style.display = 'none';
+      mystery_films.style.display = 'none';
+      romance_films.style.display = 'flex';
+})
+
+
+

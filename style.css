@@ -142,7 +142,8 @@ a {
     transition: 0.5s ease-in;
 }
 
-.actn_films,.comedy_films {
+.actn_films,.comedy_films,.drama_films,.fantasy_films,.horror_films,
+ .mystery_films,.romance_films{
     display: flex;
     gap: 3vh;
 }
