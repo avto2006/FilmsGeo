@@ -44,7 +44,7 @@ a {
     width: 34vh;
 }
 
-.films {
+.films,.films_area3 {
     display: flex;
     margin-top: 7vh;
     justify-content: space-around;
@@ -84,7 +84,7 @@ a {
 }
 
 
-.trending_movies,.popular_films,.section_3 {
+.trending_movies,.popular_films,.section_3,.popular_tvSeries {
     margin-top: 28vh;
     margin-left: 5vh;
 }
@@ -118,7 +118,7 @@ a {
 
 }
 
-.categories_area,.films_area {
+.categories_area,.films_area,.films_area3 {
     margin-top: 10vh;
 }
 
