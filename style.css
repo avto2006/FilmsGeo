@@ -148,6 +148,12 @@ a {
     gap: 3vh;
 }
 
+
+.comedy_films,.drama_films,.fantasy_films,.horror_films,
+ .mystery_films,.romance_films {
+    display: none;
+ }
+
 .comedy_films {
     display: none;
 }
