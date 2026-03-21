@@ -1,6 +1,8 @@
 body {
     background-color: black;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -158,6 +160,19 @@ a {
     display: none;
 }
 
+.ftr_sec1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25vh;
+    background-color: red;
+    
+}
+
+.ftrTxt {
+    display: grid;
+    font-size: 25px;
+}
 
 
 .arrow.left {left: 0;}
