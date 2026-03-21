@@ -30,11 +30,11 @@ const horror_films = document.querySelector('.horror_films')
 const mystery_films = document.querySelector('.mystery_films')
 const romance_films = document.querySelector('.romance_films')
 
-comedy.addEventListener('click', () => {
-      action.style.backgroundColor = 'black';
-      comedy.style.backgroundColor = 'blue';
-      actn_films.style.display = 'none';
-      comedy_films.style.display = 'flex';
+action.addEventListener('click', () => {
+      action.style.backgroundColor = 'blue';
+      comedy.style.backgroundColor = 'black';
+      actn_films.style.display = 'flex';
+      comedy_films.style.display = 'none';
       drama_films.style.display = 'none';
       fantasy_films.style.display = 'none';
       horror_films.style.display = 'none';
