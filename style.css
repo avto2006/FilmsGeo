@@ -18,6 +18,13 @@ body {
 }
 
 
+.tp1 {
+    animation: firstAnim 2s;
+}
+
+.tp2 {
+    animation: secondAnim 2s;
+}
 
 nav {
     display: flex;
@@ -220,3 +227,25 @@ a {
        5.login in იც გასაკეთებელია
 
 */
+
+
+@keyframes firstAnim {
+     from {
+        transform: translate(-220px);
+     }
+
+     to {
+        transform: translate(0);
+     }
+}
+
+
+@keyframes secondAnim {
+     from {
+        transform: translate(220px);
+     }
+
+     to {
+        transform: translate(0);
+     }
+}
