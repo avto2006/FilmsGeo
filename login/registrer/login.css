@@ -5,8 +5,13 @@ body {
 .login_box {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
+    margin:  0 auto;
     margin-top: 30vh;
+    background-color: white;
+    width: 300px;
+    padding: 15vh;
+    
 }
 
 .login_content {
