@@ -38,8 +38,10 @@ action.addEventListener('click', () => {
       fantasy_films.style.display = 'none';
       horror_films.style.display = 'none';
       mystery_films.style.display = 'none';
-      romance_films.style.display = 'none';
+      romance.style.backgroundColor = 'rgb(101, 101, 181)';
 })
+
+
 
 comedy.addEventListener('click', () => {
       action.style.backgroundColor = 'rgb(101, 101, 181)';
@@ -80,7 +82,7 @@ fantasy.addEventListener('click', () => {
       horror_films.style.display = 'none';
       mystery_films.style.display = 'none';
       romance_films.style.display = 'none';
-      romance.style.backgroundColor = 'rgb(101, 101, 181)';
+      
 })
 
 horror.addEventListener('click', () => {
@@ -96,7 +98,7 @@ horror.addEventListener('click', () => {
       horror_films.style.display = 'flex';
       mystery_films.style.display = 'none';
       romance_films.style.display = 'none';
-      romance.style.backgroundColor = 'rgb(101, 101, 181)';
+      
 })
 
 
@@ -114,7 +116,7 @@ mystery.addEventListener('click', () => {
       horror_films.style.display = 'none';
       mystery_films.style.display = 'flex';
       romance_films.style.display = 'none';
-      romance.style.backgroundColor = 'rgb(101, 101, 181)';
+      
 })
 
 romance.addEventListener('click', () => {
