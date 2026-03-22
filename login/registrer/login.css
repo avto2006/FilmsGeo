@@ -1,0 +1,16 @@
+body {
+     background: linear-gradient( 90deg, rgb(101, 101, 181), black );
+}
+
+.login_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+.login_content {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
