@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background: linear-gradient( 75deg, rgb(101, 101, 181), black );
     color: white;
     margin: 0;
     padding: 0;
@@ -24,6 +24,12 @@ li {
     list-style: none;
     cursor: pointer;
 }
+
+li:hover {
+    color: rgb(65, 65, 235);
+    transition: ease-in 0.9s;    
+}
+
 
 a {
     text-decoration: none;
