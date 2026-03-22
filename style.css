@@ -9,9 +9,15 @@ body {
     font-size: 28px;
 }
 
-.top {
+.top  {
     box-shadow: 18px 18px 18px 18px rgba(0,0,0,0.5);
 }
+
+.film {
+     box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+
 
 nav {
     display: flex;
@@ -212,5 +218,5 @@ a {
        3. ფილმები უნდა იხსნებოდესს
        4. Search არის გასაკეთებელი
        5.login in იც გასაკეთებელია
-         
+
 */
