@@ -137,3 +137,7 @@ romance.addEventListener('click', () => {
 
 
 
+function go1() {
+      window.location.href = 'https://www.youtube.com/watch?v=VFkjBy2b50Q'
+
+}

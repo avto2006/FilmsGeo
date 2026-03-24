@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+img {
+    cursor: pointer;
+}
+
 .logo {
     font-size: 28px;
 }
